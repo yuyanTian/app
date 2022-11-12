@@ -1,0 +1,61 @@
+.container{
+    width: 500px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.title{
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  margin-left: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.title:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.deleteButton{
+    all:unset;
+    float: right;
+    border-radius: 6px;
+    background-color: #e74c3c;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center; 
+    font-size: 18px;	
+    color: #fff;
+    font-weight: 600;
+}
+
+.deleteButton:hover{
+    transition: all .3s ease-in-out;
+    width: 100px;
+}
+
+.deleteButton:hover:after{
+  content: "    Delete"
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

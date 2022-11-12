@@ -1,0 +1,47 @@
+.top{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 180px;
+}
+
+.mainSection{
+    display:flex;
+    justify-content: space-evenly;
+    height: 680px;
+    /* height: fit-content; */
+}
+
+.map{
+    width: 60%;
+}
+
+.auth{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    background-color: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.longText{
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+.footer{
+    position: fixed;
+    height: 180px;
+    bottom: 0;
+    left: 0;
+}

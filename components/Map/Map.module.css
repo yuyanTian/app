@@ -1,0 +1,12 @@
+.autoComplete {
+    all:unset;
+   width: 100%;
+   height: 30px;
+   border: 1.8px solid #bdc3c7;
+   margin-top: 15px;
+   border-radius: 5px;
+}
+
+.autoComplete:focus{
+    border: 3px solid #3498db;
+}

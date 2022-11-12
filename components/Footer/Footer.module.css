@@ -1,0 +1,13 @@
+.container{
+    height: 180px;
+   background-color: #ecf0f1;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.message{
+    color: #7f8c8d;
+    font-size: 20px;
+}
